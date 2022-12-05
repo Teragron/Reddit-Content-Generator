@@ -16,16 +16,16 @@ A Reddit account and API keys for accessing the Reddit API
 ```python
 pip install -r requirements.txt
 ```
-
-
-Create a Reddit app and get the API keys by following the instructions here.
-Replace the client_id, client_secret, and user_agent values in the reddit = praw.Reddit(...) line with your own API keys.
+3. Create a Reddit app and get the API keys by following the instructions [here](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps).
+4. Replace the `client_id`, `client_secret`, and `user_agent` values in the `reddit = praw.Reddit(...)` line with your own API keys.
 
 ## Usage
 1. Open a terminal and navigate to the directory where the script is located.
 2. Run the script by typing the following command:
 
+```python
 python subreddit_video_generator.py
+```
 
 3. The script will scrape comments and submissions from the specified subreddit, choose a random submission, create the necessary folders, and generate a video using the submission's text and comments. The video will be saved in the `subfiles/finished` folder.
 
