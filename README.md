@@ -3,10 +3,11 @@ A Python script that generates a video from a specified subreddit on Reddit
 
 This is a Python script that uses the praw, selenium, OpenCV, and moviepy libraries to scrape comments and submissions from a specified subreddit on Reddit, choose a random submission, and generate a video using the submission's text and comments.
 
-Requirements
-Python 3.7 or later
-The praw, selenium, OpenCV, and moviepy libraries
-A Reddit account and API keys for accessing the Reddit API
+## Requirements
+
+- Python 3.7 or later
+- The praw, selenium, OpenCV, and moviepy libraries
+- A Reddit account and API keys for accessing the Reddit API
 
 ## Installation
 
