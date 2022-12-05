@@ -36,7 +36,7 @@ You can customize the script by changing the following variables:
 - `name_of_subreddit`: The name of the subreddit from which to scrape comments and submissions. By default, it is set to "askreddit".
 - `limit`: The number of hot posts to scrape from the subreddit. By default, it is set to 15.
 
-You need to have five video files for the background:
+You need to have five videos for the background:
 
 - `parkur1.mp4`
 - `parkur2.mp4`
@@ -45,6 +45,13 @@ You need to have five video files for the background:
 - `parkur5.mp4`
 
 The script will randomly choose one of these five videos to use as the background for the generated video.
+
+## Showcase
+
+
+https://user-images.githubusercontent.com/54573938/205771009-0ec0c873-9a89-4d8d-aa5e-d7db9399f7d3.mp4
+
+
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
