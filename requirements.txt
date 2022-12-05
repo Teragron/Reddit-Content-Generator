@@ -1,0 +1,7 @@
+cv2==4.5.0
+gTTS==2.1.1
+moviepy==1.0.4
+opencv-python==4.5.0.42
+Pillow==8.2.0
+praw==8.2.0
+selenium==4.0.0a7
