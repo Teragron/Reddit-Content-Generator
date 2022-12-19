@@ -20,7 +20,8 @@ pip install -r requirements.txt
 3. Create a Reddit app and get the API keys by following the instructions [here](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps).
 4. Replace the `client_id`, `client_secret`, and `user_agent` values in the `reddit = praw.Reddit(...)` line with your own API keys.
 5. Place the Adblocker extension to the corresponding folder.
-6. Place the parkour videos to the corresponding folder.
+6. The first time it openes up the browser, you need to close the cookie agreement pop-up of reddit by clicking accept or reject non-essential
+7. Place the parkour videos to the corresponding folder.
 
 ## Usage
 1. Open a terminal and navigate to the directory where the script is located.
